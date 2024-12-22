@@ -124,7 +124,7 @@ env:
   TOOLCHAIN_URL: https://github.com/TurBoTse/padavan/releases/download/toolchain
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     env:
       target: ${{ matrix.target }}
       toolchain: ${{ matrix.toolchain }}
