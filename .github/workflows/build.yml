@@ -122,12 +122,12 @@ on:
         description: 'Delete old workflow runs'
         default: true
 env:
-  FIRMWARE_AUTHOR: TurBoTse
+  FIRMWARE_AUTHOR: fightroad
   FIRMWARE_BRANCH: main
   FIRMWARE_REPO: padavan
-  FIRMWARE_URL: https://github.com/TurBoTse/padavan.git
+  FIRMWARE_URL: https://github.com/fightroad/padavan.git
   TOOLCHAIN_ROOT: toolchain/toolchain-mipsel
-  TOOLCHAIN_URL: https://github.com/TurBoTse/padavan/releases/download/toolchain
+  TOOLCHAIN_URL: https://github.com/fightroad/padavan/releases/download/toolchain
 jobs:
   build:
     runs-on: ubuntu-latest
